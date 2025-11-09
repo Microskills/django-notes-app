@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
     web:
-      images: "microskills/notes-app:latest"
+      image: "microskills/notes-app:latest"
       ports:
         - "8000:8000"
 #   nginx:
